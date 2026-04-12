@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Luis Trejo | CEO Puerto Buceo</title>
+
+    <!-- SEO & Open Graph -->
+    <meta name="description" content="Luis Trejo — CEO & Director General de Puerto Buceo. Especialistas en buceo industrial, pruebas no destructivas (NDT) y mantenimiento marino.">
+    
+    <link rel="icon" type="image/png" href="https://puertobuceoindustrial.com/wp-content/uploads/2026/02/icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Splash / Loading Screen -->
+    <div class="splash" id="splash-screen">
+        <div class="splash-inner">
+            <img src="https://puertobuceoindustrial.com/wp-content/uploads/2026/02/icon.png" alt="Splash Logo" class="splash-img">
+            <h2 class="splash-name">Luis Trejo</h2>
+            <p class="splash-sub">CEO | Puerto Buceo</p>
+            <div class="splash-bar-wrap">
+                <div class="splash-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cover Photo Background -->
+    <div class="site-bg">
+        <div class="bg-overlay"></div>
+    </div>
+
+    <!-- Main Scrollable Container -->
+    <main class="vcard-container" id="main-container">
+
+        <!-- Top Utilities Bar -->
+        <div class="top-nav animate-in">
+            <div class="lang-toggle ui-interact" id="lang-toggle">
+                <span class="lang-text active" data-lang="es">ES</span>
+                <div class="lang-switch-thumb"></div>
+                <span class="lang-text" data-lang="en">EN</span>
+            </div>
+        </div>
+
+        <!-- Header: Profile & Identity -->
+        <header class="vcard-header animate-in">
+            <div class="cover-photo">
+                <img src="Assets/PORTADA.png" alt="Portada Puerto Buceo" class="cover-img">
+                <!-- Status Badge -->
+                <div class="status-badge" data-es="Disponible 24/7" data-en="Available 24/7">
+                    <span class="status-dot"></span> <span data-es="Disponible 24/7" data-en="Available 24/7">Disponible 24/7</span>
+                </div>
+            </div>
+            
+            <!-- Profile: Casco del Logo Oficial con LED Ring -->
+            <div class="profile-pic-wrapper">
+                <div class="profile-glow"></div>
+                <div class="led-ring"></div>
+                <img src="https://puertobuceoindustrial.com/wp-content/uploads/2026/02/icon-150x150.png" alt="Luis Trejo - Puerto Buceo" class="profile-pic">
+            </div>
+
+            <!-- Company Logo debajo del perfil -->
+            <img src="https://puertobuceoindustrial.com/wp-content/uploads/2026/02/buceo-blanco.png" alt="Puerto Buceo Logo" class="company-logo">
+
+            <h1 class="photographer-name">Luis Trejo</h1>
+            <p class="photographer-title" data-es="CEO & Director General" data-en="CEO & Managing Director">CEO & Director General</p>
+            
+            <div class="location-badge">
+                <i class="ri-map-pin-line"></i> <span data-es="Servicios a nivel nacional" data-en="Nationwide Services">Servicios a nivel nacional</span>
+            </div>
+        </header>
+
+        <!-- Stats Counters -->
+        <section class="stats-section animate-in">
+            <div class="stat-item">
+                <div class="stat-val-wrap">
+                    <span class="stat-number" data-target="21">0</span>
+                    <span class="stat-suffix">+</span>
+                </div>
+                <span class="stat-label" data-es="Años de Experiencia" data-en="Years of Experience">Años de Experiencia</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-val-wrap">
+                    <span class="stat-number" data-target="100">0</span>
+                    <span class="stat-suffix">%</span>
+                </div>
+                <span class="stat-label" data-es="Seguridad" data-en="Safety">Seguridad</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-val-wrap">
+                    <span class="stat-number" data-target="6">0</span>
+                    <span class="stat-suffix"></span>
+                </div>
+                <span class="stat-label" data-es="Divisiones" data-en="Divisions">Divisiones</span>
+            </div>
+        </section>
+
+        <!-- Primary Actions: Llamar + Guardar Contacto -->
+        <section class="primary-actions animate-in">
+            <a href="tel:+522291697013" class="primary-btn ui-interact fab-btn">
+                <i class="ri-phone-fill"></i> <span data-es="Llamar" data-en="Call">Llamar</span>
+            </a>
+            <button class="primary-btn ui-interact outline-btn" id="btn-vcf">
+                <i class="ri-contacts-book-2-fill"></i> <span data-es="Guardar Contacto" data-en="Save Contact">Guardar Contacto</span>
+            </button>
+        </section>
+
+        <!-- Certifications Marquee Carousel -->
+        <section class="cert-section animate-in">
+            <p class="cert-title" data-es="Certificados bajo normas internacionales" data-en="Certified by International Standards">Certificados bajo normas internacionales</p>
+            <div class="cert-marquee">
+                <div class="cert-track">
+                    <span class="cert-badge"><i class="ri-medal-fill"></i> ISO 9001</span>
+                    <span class="cert-badge"><i class="ri-medal-line"></i> AWS Welding</span>
+                    <span class="cert-badge"><i class="ri-secure-payment-line"></i> NDT Level II</span>
+                    <span class="cert-badge"><i class="ri-shield-check-fill"></i> HSE Compliant</span>
+                    <span class="cert-badge"><i class="ri-oil-fill"></i> Aval PEMEX</span>
+                    <span class="cert-badge"><i class="ri-flashlight-fill"></i> CFE</span>
+                    <!-- Duplicated for infinite loop -->
+                    <span class="cert-badge"><i class="ri-medal-fill"></i> ISO 9001</span>
+                    <span class="cert-badge"><i class="ri-medal-line"></i> AWS Welding</span>
+                    <span class="cert-badge"><i class="ri-secure-payment-line"></i> NDT Level II</span>
+                    <span class="cert-badge"><i class="ri-shield-check-fill"></i> HSE Compliant</span>
+                    <span class="cert-badge"><i class="ri-oil-fill"></i> Aval PEMEX</span>
+                    <span class="cert-badge"><i class="ri-flashlight-fill"></i> CFE</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery / Services Section -->
+        <section class="portfolio-section animate-in">
+            <div class="section-header">
+                <h2 data-es="Nuestros Servicios" data-en="Our Services">Nuestros Servicios</h2>
+                <a href="javascript:void(0);" class="view-all ui-interact" data-modal="modal-servicios" data-es="Ver Catálogo" data-en="View Catalog">Ver Catálogo</a>
+            </div>
+
+            <div class="gallery-scroll">
+                <div class="gallery-item" data-tilt data-tilt-glare="true" data-tilt-max-glare="0.2" data-tilt-max="4">
+                    <img src="Assets/img 0.png" loading="lazy" alt="Buceo Industrial">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-es="Buceo Industrial" data-en="Industrial Diving">Buceo Industrial</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-tilt data-tilt-glare="true" data-tilt-max-glare="0.2" data-tilt-max="4">
+                    <img src="Assets/img 1.png" loading="lazy" alt="Pruebas NDT">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-es="Pruebas NDT" data-en="NDT Testing">Pruebas NDT</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-tilt data-tilt-glare="true" data-tilt-max-glare="0.2" data-tilt-max="4">
+                    <img src="Assets/PORTADA.png" loading="lazy" alt="Mantenimiento Marino">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-es="Mantenimiento Marino" data-en="Marine Maintenance">Mantenimiento Marino</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-tilt data-tilt-glare="true" data-tilt-max-glare="0.2" data-tilt-max="4">
+                    <img src="Assets/img 3.png" loading="lazy" alt="Oceanografía">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-es="Oceanografía" data-en="Oceanography">Oceanografía</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-tilt data-tilt-glare="true" data-tilt-max-glare="0.2" data-tilt-max="4">
+                    <img src="Assets/img 4.png" loading="lazy" alt="Obra Civil">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-es="Construcción y Obra" data-en="Construction">Construcción y Obra</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Essential Links Menu -->
+        <section class="links-section animate-in">
+            
+            <a href="javascript:void(0);" class="link-card glass-panel ui-interact shimmer-card" data-modal="modal-cotizador">
+                <div class="link-info">
+                    <h3 data-es="Solicitar Presupuesto" data-en="Request a Quote">Solicitar Presupuesto</h3>
+                    <p data-es="Cotiza tu proyecto industrial" data-en="Quote your industrial project">Cotiza tu proyecto industrial</p>
+                </div>
+                <i class="ri-file-text-line"></i>
+                <div class="shimmer-effect"></div>
+            </a>
+
+            <a href="Assets/brochure.pdf" target="_blank" class="link-card glass-panel ui-interact shimmer-card">
+                <div class="link-info">
+                    <h3 data-es="Brochure Oficial PDF" data-en="Official PDF Brochure">Brochure Oficial PDF</h3>
+                    <p data-es="Descarga nuestra presentación" data-en="Download our brochure">Descarga nuestra presentación</p>
+                </div>
+                <i class="ri-download-cloud-2-line"></i>
+                <div class="shimmer-effect"></div>
+            </a>
+
+            <a href="https://wa.me/522291697013?text=Hola%20Luis,%20me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n" target="_blank" class="link-card glass-panel ui-interact shimmer-card wa-card">
+                <div class="link-info">
+                    <h3 data-es="WhatsApp Directo" data-en="Direct WhatsApp">WhatsApp Directo</h3>
+                    <p data-es="Línea directa 24/7" data-en="Direct line 24/7">Línea directa 24/7</p>
+                </div>
+                <i class="ri-whatsapp-line"></i>
+                <div class="shimmer-effect"></div>
+            </a>
+
+            <a href="javascript:void(0);" class="link-card glass-panel ui-interact shimmer-card" data-modal="modal-qr">
+                <div class="link-info">
+                    <h3 data-es="Compartir VCard" data-en="Share VCard">Compartir VCard</h3>
+                    <p data-es="Código QR para conectar" data-en="QR code to connect">Código QR para conectar</p>
+                </div>
+                <i class="ri-qr-code-line"></i>
+                <div class="shimmer-effect"></div>
+            </a>
+
+            <a href="https://puertobuceoindustrial.com/" target="_blank" class="link-card glass-panel ui-interact shimmer-card">
+                <div class="link-info">
+                    <h3 data-es="Sitio Web Oficial" data-en="Official Website">Sitio Web Oficial</h3>
+                    <p>puertobuceoindustrial.com</p>
+                </div>
+                <i class="ri-global-line"></i>
+                <div class="shimmer-effect"></div>
+            </a>
+        </section>
+
+        <!-- Footer -->
+        <div class="vcard-footer animate-in">
+            <img src="https://puertobuceoindustrial.com/wp-content/uploads/2026/02/buceo-blanco.png" alt="Logo Footer" class="footer-logo">
+            <p class="footer-sub">Commercial Diving · NDT & Environment</p>
+        </div>
+
+        <div class="bottom-spacer"></div>
+    </main>
+
+
+
+    <!-- Modals -->
+    
+    <!-- Modal Cotizador -->
+    <div class="modal-overlay hidden" id="modal-cotizador">
+        <div class="modal-content glass-panel-dark">
+            <button class="modal-close ui-interact"><i class="ri-close-line"></i></button>
+            <h2 data-es="Cotizar Proyecto" data-en="Quote Project">Cotizar Proyecto</h2>
+            <p data-es="Selecciona el servicio y nos pondremos en contacto a la brevedad." data-en="Select the service and we'll get back to you shortly.">Selecciona el servicio y nos pondremos en contacto a la brevedad.</p>
+            
+            <div class="auth-box" style="margin-top: 1rem;">
+                <select id="cotizador-servicio" class="glass-input">
+                    <option value="" disabled selected>Selecciona un servicio...</option>
+                    <option value="Buceo Industrial">Buceo Industrial</option>
+                    <option value="Pruebas No Destructivas (NDT)">Pruebas No Destructivas (NDT)</option>
+                    <option value="Mantenimiento Marino">Mantenimiento y Protección Marina</option>
+                    <option value="Oceanografía y Topografía">Oceanografía y Topografía</option>
+                    <option value="Construcción y Obra Civil">Construcción y Obra Civil</option>
+                    <option value="Limpieza de Cisternas">Limpieza de Cisternas</option>
+                </select>
+                
+                <textarea id="cotizador-detalles" class="glass-input" placeholder="Breve descripción del proyecto (opcional)" rows="3" style="resize: none;"></textarea>
+                
+                <button class="primary-btn ui-interact btn-small" id="btn-enviar-cotizacion" style="width: 100%;">
+                    <span data-es="Enviar por WhatsApp" data-en="Send via WhatsApp">Enviar por WhatsApp</span> <i class="ri-whatsapp-line"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Servicios Completos -->
+    <div class="modal-overlay hidden" id="modal-servicios">
+        <div class="modal-content glass-panel-dark">
+            <button class="modal-close ui-interact"><i class="ri-close-line"></i></button>
+            <h2 data-es="Nuestra Experiencia" data-en="Our Experience">Nuestra Experiencia</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <div class="service-icon"><i class="ri-anchor-line"></i></div>
+                    <div>
+                        <h4 data-es="Buceo Industrial" data-en="Industrial Diving">Buceo Industrial</h4>
+                        <p data-es="Inspecciones subacuáticas, dragados, corte y soldadura subacuática. Obras marítimas en entornos complejos." data-en="Underwater inspections, dredging, cutting and underwater welding. Maritime works in complex environments.">Inspecciones subacuáticas, dragados, corte y soldadura subacuática. Obras marítimas en entornos complejos.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i class="ri-scan-2-line"></i></div>
+                    <div>
+                        <h4 data-es="Pruebas NDT" data-en="NDT Testing">Pruebas NDT</h4>
+                        <p data-es="Ultrasonido industrial, partículas magnéticas, medición de espesores en tuberías petrolíferas." data-en="Industrial ultrasound, magnetic particles, thickness measurement in oil pipelines.">Ultrasonido industrial, partículas magnéticas, medición de espesores en tuberías petrolíferas.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i class="ri-tools-fill"></i></div>
+                    <div>
+                        <h4 data-es="Mantenimiento Marino" data-en="Marine Maintenance">Mantenimiento Marino</h4>
+                        <p data-es="Reparación de muelles, medición de potenciales catódicos, pinturas epóxicas y protección con bolsacreto." data-en="Pier repair, cathodic potential measurement, epoxy paints and bolsacreto protection.">Reparación de muelles, medición de potenciales catódicos, pinturas epóxicas y protección con bolsacreto.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i class="ri-compass-3-line"></i></div>
+                    <div>
+                        <h4 data-es="Oceanografía" data-en="Oceanography">Oceanografía</h4>
+                        <p data-es="Monitoreo de variables físico-químicas, batimetría tridimensional y muestreo de sedimentos." data-en="Monitoring of physical-chemical variables, 3D bathymetry and sediment sampling.">Monitoreo de variables físico-químicas, batimetría tridimensional y muestreo de sedimentos.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i class="ri-building-4-line"></i></div>
+                    <div>
+                        <h4 data-es="Construcción y Obra Civil" data-en="Construction & Civil Works">Construcción y Obra Civil</h4>
+                        <p data-es="Fabricación de estructuras metálicas, soldadores certificados, impermeabilizaciones industriales." data-en="Metal structure fabrication, certified welders, industrial waterproofing.">Fabricación de estructuras metálicas, soldadores certificados, impermeabilizaciones industriales.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i class="ri-drop-line"></i></div>
+                    <div>
+                        <h4 data-es="Limpieza de Cisternas" data-en="Cistern Cleaning">Limpieza de Cisternas</h4>
+                        <p data-es="Limpieza integral de cisternas industriales, dragado de sedimentos y análisis de calidad de agua." data-en="Comprehensive cleaning of industrial cisterns, sediment dredging and water quality analysis.">Limpieza integral de cisternas industriales, dragado de sedimentos y análisis de calidad de agua.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="primary-btn ui-interact btn-small" onclick="window.open('https://wa.me/522291697013', '_blank')" style="width: 100%; margin-top: 1rem;">
+                <span data-es="Contactar ahora" data-en="Contact now">Contactar ahora</span> <i class="ri-whatsapp-line"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal QR -->
+    <div class="modal-overlay hidden" id="modal-qr">
+        <div class="modal-content glass-panel-dark" style="text-align: center;">
+            <button class="modal-close ui-interact"><i class="ri-close-line"></i></button>
+            <img src="https://puertobuceoindustrial.com/wp-content/uploads/2026/02/buceo-blanco.png" alt="Logo" style="width: 120px; margin: 0 auto 10px;">
+            <h2 data-es="Conectar" data-en="Connect">Conectar</h2>
+            <div style="background: white; padding: 1rem; border-radius: 16px; margin: 1rem auto; width: fit-content; max-width: 100%; position: relative;">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://puertobuceoindustrial.com/" alt="QR Code" style="display: block; width: 220px; height: 220px;">
+                <img src="https://puertobuceoindustrial.com/wp-content/uploads/2026/02/icon-150x150.png" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width: 40px; height: 40px; background: white; padding: 4px; border-radius: 8px;">
+            </div>
+            <p data-es="Escanea para guardar contacto." data-en="Scan to save contact.">Escanea para guardar contacto.</p>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+
+<!-- TREZE SIGNATURE -->
+<a href="https://wa.me/522214092478?text=Hola%20Treze%20Labs%2C%20me%20gustar%C3%ADa%20solicitar%20el%20desarrollo%20de%20un%20sistema%20profesional." target="_blank" style="display: flex; justify-content: center; text-decoration: none; margin-top: 24px; margin-bottom: 24px; opacity: 0.6; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.6'">
+    <img src="assets/footer.png" alt="Ingeniería Digital por Treze Labs" style="max-height: 38px; object-fit: contain; filter: brightness(0);">
+</a>
+
+</body>
+
+</html>
